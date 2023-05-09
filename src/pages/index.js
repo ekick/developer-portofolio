@@ -5,6 +5,7 @@ import profilePic from '../../public/images/profile/developer-1.png'
 import AnimatedText from '@/components/AnimatedText'
 import Link from 'next/link'
 import { LinkArrow } from '@/components/Icons'
+import FloatingBrand from '@/components/FloatingBrand'
 
 export default function Home() {
   return (
@@ -35,6 +36,7 @@ export default function Home() {
             </div>
           </div>
         </Layout>
+        <FloatingBrand />
       </main>
     </>
   )
